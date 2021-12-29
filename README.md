@@ -1,6 +1,9 @@
 ## newsletter-signup
 This is a newsletter signup webPage that automatically adds it to your MailChimp account.
 
+## Hosted on Heroku
+https://garyau-newsletter-signup.herokuapp.com/
+
 ## Technologies
 Technologies used for this project:
 * HTML, CSS, JavaScript
