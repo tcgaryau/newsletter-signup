@@ -1,9 +1,11 @@
 const express = require("express");
 const app = express();
 const https = require("https");
-const mailChimpAPI = "c36b29d78b7e680ec81422b989d9fe9a-us20";
-const listID = "032f0f52f5";
+const config = require("./config.js");
+const mailChimpAPI = config.mailChimpAPI;
+const listID = config.listID;
 
+console.log(mailChimpAPI);
 
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
