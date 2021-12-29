@@ -5,7 +5,6 @@ const config = require("./config.js");
 const mailChimpAPI = config.mailChimpAPI;
 const listID = config.listID;
 
-console.log(mailChimpAPI);
 
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
